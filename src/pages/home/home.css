@@ -1,0 +1,31 @@
+
+img{
+    height:15em;
+    width:20em;
+    margin: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.images{
+    width: 100%;
+    display: inline-grid;
+    justify-content: space-between;
+  grid-template-columns: auto auto auto;
+  
+}
+@media (max-width: 800px) {
+    img{
+        height:15em;
+        width:20em;
+        margin: 2em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .images{
+        width: 100%;
+        display: inline-grid;
+        justify-content: space-between;
+      grid-template-columns: auto;
+      
+    }
+}
