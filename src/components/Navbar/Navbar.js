@@ -73,28 +73,28 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink className="nav-link" to="/reading" exact>
                 <i 
-                className="fa fa-upload">
+                className="fa fa-book">
                 </i>Reading
               </NavLink> 
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/writing" exact>
-                <i 
-                className="fa fa-upload">
+              <i 
+                className="fa fa-magic">
                 </i>Writing
               </NavLink> 
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/speaking" exact>
                 <i 
-                className="fa fa-upload">
+                className="fa fa-microphone">
                 </i>Speaking
               </NavLink> 
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/listning" exact>
                 <i 
-                className="fa fa-upload">
+                className="fa fa-headphones">
                 </i>Listening
               </NavLink> 
             </li>
