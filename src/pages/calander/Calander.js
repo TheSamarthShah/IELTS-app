@@ -36,8 +36,7 @@ export default function Calander() {
     }
   return (
       <>
-        <h1>Calendar</h1>
-            <h2>Add New Event</h2>
+          {/*}  <h2>Add New Event</h2>
             <div>
                 <input type="text" placeholder="Add Title" style={{ width: "20%", marginRight: "10px" }} value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
                 <DatePicker placeholderText="Start Date" style={{ marginRight: "10px" }} selected={newEvent.start} onChange={(start) => setNewEvent({ ...newEvent, start })} />
@@ -45,7 +44,7 @@ export default function Calander() {
                 <button stlye={{ marginTop: "10px" }} onClick={handleAddEvent}>
                     Add Event
                 </button>
-            </div>
+  </div>*/}
             <Calendar localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ height: 500, margin: "50px" }} />
       </>
       

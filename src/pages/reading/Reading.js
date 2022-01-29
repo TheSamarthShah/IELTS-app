@@ -5,6 +5,17 @@ export default function Reading() {
     <>
     <div className="body">
       <div className="container">
+      <div className="card">
+          <div className="circle">
+          <h2>Demo</h2>
+          </div>
+          <div className="content"><p>
+            You'll get demo of how we work. Log In to access other levels.
+          </p>
+          <a href="/reading/demo">Go</a>
+          
+          </div>
+          </div>
         <div className="card">
           <div className="circle">
           <h2>Level 01</h2>
