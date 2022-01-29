@@ -9,7 +9,7 @@ import Login from './components/login/Login';
 import { Container } from 'react-bootstrap';
 import Home from './pages/home/home';
 import Speaking from './pages/speaking/Speaking'
-import Writing from './pages/writing/writing'
+import Writing from './pages/writing/Writing'
 import Listning from './pages/listning/Listning'
 import Reading from './pages/reading/Reading'
 import Calander from './pages/calander/Calander'
@@ -88,6 +88,9 @@ const App = ({location}) => {
 
           <Route exact path="/writing" element={<RequireAuth redirectTo="/login">
             <Writing />
+          </RequireAuth>}/>
+          <Route exact path="/writing/demo" element={<RequireAuth redirectTo="/login">
+            <DemoW />
           </RequireAuth>}/>
           <Route exact path="/writing/level1" element={<RequireAuth redirectTo="/login">
             <L1W />
